@@ -3,3 +3,14 @@
 #    Carioca Paulista Mineiro Outros estados
 
 estado = input('Digite a sigla de um estado')
+
+if estado == "RS":
+    print("Sulista")
+elif estado == "SP":
+    print("Paulista")
+elif estado == "MG":
+    print("Mineiro")
+elif estado == "AM":
+    print("Amazonense")
+elif estado == "PE":
+    print("Pernambucano")
